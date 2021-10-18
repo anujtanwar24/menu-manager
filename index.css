@@ -1,0 +1,102 @@
+body {
+    background-image: url('images/menu1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+table {
+    width: 80%;
+    margin: 40px auto;
+    background: #C37B89;
+    opacity: .8;
+    border-radius: 10%;
+}
+
+table:hover {
+    opacity: 1;
+}
+
+table.list {
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    font-size: 4rem;
+}
+
+td {
+    font-weight: 500;
+    font-size: larger;
+    text-align: center;
+    padding: 8px 15px;
+}
+
+tr:nth-child(),
+table.list thread>tr {
+    background-color: #FFA6D5;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 100px 0;
+    display: inline-block;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+}
+
+label {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    color: blanchedalmond;
+    background: #191A19;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:hover {
+    background: #082032;
+    transform: scale(1.1);
+}
+
+input[type="reset"]:hover {
+    background: #082032;
+    transform: scale(1.1);
+}
+
+button {
+    background: #eee;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+.op-btn {
+    background-color: black;
+}
+
+.opnbtn {
+    background-color: black;
+    color: blanchedalmond;
+}
